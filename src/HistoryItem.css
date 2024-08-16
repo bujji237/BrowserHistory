@@ -1,0 +1,82 @@
+.history-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+.history-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.history-details-container {
+  display: flex;
+  align-items: center;
+}
+.logo-info-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.logoUrl {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+.time {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.header-container {
+  background-color: #3367d6;
+}
+.logo-image {
+  height: 20px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 10px;
+}
+.input-container {
+  width: 150px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #2850a7;
+}
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #2850a7;
+  margin-right: 5px;
+}
+.noHistory {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
